@@ -7,4 +7,8 @@
     <project name="vix"                           path="vix"/>
     <project name="patterncpp"                    path="pattern"/>
     <project name="mockcpp"                       path="mock"/>
+
+    <!-- external projects -->
+    <remote name="chromium_external" fetch="https://chromium.googlesource.com/external"/>
+    <project name="googletest" remote="chromium_external" path="gtest"/>
 </manifest>
