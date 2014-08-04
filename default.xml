@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="nanolith_github" fetch="https://github.com/nanolith"/>
+    <default revision="refs/heads/master"         remote="nanolith_github"/>
+
+    <project name="vix"                           path="vix"/>
+    <project name="patterncpp"                    path="pattern"/>
+    <project name="mockcpp"                       path="mock"/>
+</manifest>
